@@ -20,7 +20,7 @@ function getImage() : ?string
     curl_close($ch);
 
     // <img src="https://boredhumans.b-cdn.net/faces2/610.jpg" alt="610" height="256" width="256" />
-    $regex = '/<img src="https:\/\/boredhumans.b-cdn.net\/faces2\/(\d+).jpg"/i';
+    $regex = '/<img src="([^\"]+)"/i';
     preg_match($regex, $curl_response, $matche);
     if (isset($matche[1])) {
         return $matche[1];
@@ -28,4 +28,16 @@ function getImage() : ?string
     return null;
 }
 
-var_dump(getImage());
+// var_dump(getImage());
+
+@mkdir("faces");
+while (true) {
+    $image = getImage();
+    print "$image\n";
+    if ($image !== null) {
+        file_put_contents("images.txt", $image."\n", FILE_APPEND);
+
+        $filename = basename($image);
+        file_put_contents("faces/" . $filename, file_get_contents($image));
+    }
+}
