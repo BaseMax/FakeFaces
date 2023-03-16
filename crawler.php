@@ -22,9 +22,8 @@ function getImage() : ?string
     // <img src="https://boredhumans.b-cdn.net/faces2/610.jpg" alt="610" height="256" width="256" />
     $regex = '/<img src="([^\"]+)"/i';
     preg_match($regex, $curl_response, $matche);
-    if (isset($matche[1])) {
-        return $matche[1];
-    }
+
+    if (isset($matche[1])) return $matche[1];
     return null;
 }
 
