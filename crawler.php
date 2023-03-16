@@ -35,9 +35,11 @@ while (true) {
     $image = getImage();
     print "$image\n";
     if ($image !== null) {
-        file_put_contents("images.txt", $image."\n", FILE_APPEND);
-
         $filename = basename($image);
-        file_put_contents("faces/" . $filename, file_get_contents($image));
+        if (!file_exists("faces/" . $filename)) {
+            file_put_contents("images.txt", $image."\n", FILE_APPEND);
+
+            file_put_contents("faces/" . $filename, file_get_contents($image));
+        }
     }
 }
