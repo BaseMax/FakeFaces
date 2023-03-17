@@ -2,6 +2,15 @@
 
 This repository contains a crawler that downloads thousands of fake human face images from various sources on the internet. Additionally, the repository includes a dataset of thousands of face images of fake humans.
 
+## Demo
+
+| ------ | ------ | ------- | ------- |
+| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
+| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
+| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
+| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
+| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
+
 ## Requirements
 
 To use the crawler code in this repository, you will need the following:
