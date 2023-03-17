@@ -4,12 +4,13 @@ This repository contains a crawler that downloads thousands of fake human face i
 
 ## Demo
 
+| Face | Face | Face | Face |
 | ------ | ------ | ------- | ------- |
-| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
-| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
-| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
-| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
-| ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) | ![](faces/1.jpg) |
+| ![](faces/1.jpg) | ![](faces/2.jpg) | ![](faces/3.jpg) | ![](faces/4.jpg) |
+| ![](faces/5.jpg) | ![](faces/6.jpg) | ![](faces/7.jpg) | ![](faces/8.jpg) |
+| ![](faces/9.jpg) | ![](faces/10.jpg) | ![](faces/11.jpg) | ![](faces/12.jpg) |
+| ![](faces/13.jpg) | ![](faces/14.jpg) | ![](faces/15.jpg) | ![](faces/16.jpg) |
+| ![](faces/17.jpg) | ![](faces/18.jpg) | ![](faces/19.jpg) | ![](faces/20.jpg) |
 
 ## Requirements
 
